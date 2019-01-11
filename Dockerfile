@@ -1,8 +1,6 @@
 FROM python:latest
 
-COPY . .
-
-RUN pip install jupyter && pip install -r requirements.txt
+RUN pip install jupyter
 
 EXPOSE 8888
 
